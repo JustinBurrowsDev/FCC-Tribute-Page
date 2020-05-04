@@ -1,5 +1,19 @@
+body {
+    background-color: #eae7d9;
+}
+
 #main {
     text-align: center;
+    background-color: #442727;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 7vh;
 }
 
 img {
@@ -7,6 +21,35 @@ img {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    max-width: 500px;
+    max-width: 350px;
     display: block;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+
+#img-caption {
+    color: white;
+    font-size: 2.5vh;
+    font-family: 'Abel', sans-serif;
+    padding: 10px;
+}
+
+#tribute-info {
+    color: white;
+    font-size: 1.9vh;
+    font-family: 'Abel', sans-serif;
+    width: 60%;
+    margin: auto;
+}
+
+#tribute-link {
+    color: white;
+    font-size: 1.9vh;
+    padding: 10px;
+    font-family: 'Abel', sans-serif;
+}
+
+#tribute-link:hover {
+    color: silver;
+    text-decoration: none;
 }
